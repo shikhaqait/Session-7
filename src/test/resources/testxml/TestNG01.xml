@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="TestNG Suite" preserve-order="true"> 
+ 
+ 	<listeners>
+		<listener class-name="com.qait.automation.report.CustomReporter" />
+	</listeners>
+ 
+	<test name="Test 1" preserve-order="true">
+		<classes>
+			<class name="com.qait.test.GmailTest" />
+		</classes>
+	</test>
+
+</suite>
